@@ -1,48 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="0" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-25T22:59:58 PST" name="Default suite" finished-at="2022-11-25T23:02:16 PST" duration-ms="137061">
+  <suite started-at="2022-11-25T23:30:48 PST" name="Default suite" finished-at="2022-11-25T23:30:48 PST" duration-ms="57">
     <groups>
     </groups>
-    <test started-at="2022-11-25T22:59:58 PST" name="Default test" finished-at="2022-11-25T23:02:16 PST" duration-ms="137061">
-      <class name="proyecto_junit.proyecto_junit.PizzaOrdenTest">
-        <test-method signature="desplegarIngredientesTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T22:59:58 PST" name="desplegarIngredientesTest" finished-at="2022-11-25T22:59:58 PST" duration-ms="11" status="PASS">
+    <test started-at="2022-11-25T23:30:48 PST" name="Default test" finished-at="2022-11-25T23:30:48 PST" duration-ms="57">
+      <class name="proyecto_junit.proyecto_junit.SistemaLealtadTest">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="preConditions" finished-at="2022-11-25T23:30:48 PST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- desplegarIngredientesTest -->
-        <test-method signature="desplegarResumenOrdenTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T22:59:58 PST" name="desplegarResumenOrdenTest" finished-at="2022-11-25T22:59:58 PST" duration-ms="1" status="PASS">
+        </test-method> <!-- preConditions -->
+        <test-method is-config="true" signature="initialConditions()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="initialConditions" finished-at="2022-11-25T23:30:48 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- desplegarResumenOrdenTest -->
-        <test-method signature="guardarIngredientesTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T22:59:58 PST" name="guardarIngredientesTest" finished-at="2022-11-25T23:02:13 PST" duration-ms="134028" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guardarIngredientesTest -->
-        <test-method signature="preguntarPizzaVegetarianaTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:13 PST" name="preguntarPizzaVegetarianaTest" finished-at="2022-11-25T23:02:16 PST" duration-ms="2983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preguntarPizzaVegetarianaTest -->
-        <test-method signature="setIngrediente1Test()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:16 PST" name="setIngrediente1Test" finished-at="2022-11-25T23:02:16 PST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setIngrediente1Test -->
-        <test-method signature="setIngrediente2Test()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:16 PST" name="setIngrediente2Test" finished-at="2022-11-25T23:02:16 PST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setIngrediente2Test -->
-        <test-method signature="setIngrediente3Test()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:16 PST" name="setIngrediente3Test" finished-at="2022-11-25T23:02:16 PST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setIngrediente3Test -->
-        <test-method signature="setOpcionVegTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:16 PST" name="setOpcionVegTest" finished-at="2022-11-25T23:02:16 PST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.RuntimeException">
+        </test-method> <!-- initialConditions -->
+        <test-method signature="verificarClienteConTarjeta()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="verificarClienteConTarjeta" finished-at="2022-11-25T23:30:48 PST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.IllegalAccessError">
             <message>
-              <![CDATA[Test falló]]>
+              <![CDATA[class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Test falló
-at pizza/proyecto_junit.proyecto_junit.PizzaOrdenTest.setOpcionVegTest(PizzaOrdenTest.java:95)
+              <![CDATA[java.lang.IllegalAccessError: class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b
+at pizza/proyecto_junit.proyecto_junit.SistemaLealtadTest.verificarClienteConTarjeta(SistemaLealtadTest.java:37)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -71,11 +51,291 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- java.lang.IllegalAccessError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setOpcionVegTest -->
-      </class> <!-- proyecto_junit.proyecto_junit.PizzaOrdenTest -->
+        </test-method> <!-- verificarClienteConTarjeta -->
+        <test-method signature="verificarClienteSinTarjeta()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="verificarClienteSinTarjeta" finished-at="2022-11-25T23:30:48 PST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b
+at pizza/proyecto_junit.proyecto_junit.SistemaLealtadTest.verificarClienteSinTarjeta(SistemaLealtadTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarClienteSinTarjeta -->
+        <test-method signature="verificarGuardarCupon()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="verificarGuardarCupon" finished-at="2022-11-25T23:30:48 PST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b
+at pizza/proyecto_junit.proyecto_junit.SistemaLealtadTest.verificarGuardarCupon(SistemaLealtadTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarGuardarCupon -->
+        <test-method signature="verificarNoGuardarCupon()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="verificarNoGuardarCupon" finished-at="2022-11-25T23:30:48 PST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b
+at pizza/proyecto_junit.proyecto_junit.SistemaLealtadTest.verificarNoGuardarCupon(SistemaLealtadTest.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarNoGuardarCupon -->
+        <test-method signature="verificarSaldoEntre100Y150()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="verificarSaldoEntre100Y150" finished-at="2022-11-25T23:30:48 PST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b
+at pizza/proyecto_junit.proyecto_junit.SistemaLealtadTest.verificarSaldoEntre100Y150(SistemaLealtadTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarSaldoEntre100Y150 -->
+        <test-method signature="verificarSaldoEntre50Y100()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="verificarSaldoEntre50Y100" finished-at="2022-11-25T23:30:48 PST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b
+at pizza/proyecto_junit.proyecto_junit.SistemaLealtadTest.verificarSaldoEntre50Y100(SistemaLealtadTest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarSaldoEntre50Y100 -->
+        <test-method signature="verificarSaldoMayorA150()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="verificarSaldoMayorA150" finished-at="2022-11-25T23:30:48 PST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b
+at pizza/proyecto_junit.proyecto_junit.SistemaLealtadTest.verificarSaldoMayorA150(SistemaLealtadTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarSaldoMayorA150 -->
+        <test-method signature="verificarSaldoMenorA50()[pri:0, instance:proyecto_junit.proyecto_junit.SistemaLealtadTest@4facf68f]" started-at="2022-11-25T23:30:48 PST" name="verificarSaldoMenorA50" finished-at="2022-11-25T23:30:48 PST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class proyecto_junit.proyecto_junit.SistemaLealtadTest (in module pizza) cannot access class org.testng.Assert (in unnamed module @0x4926097b) because module pizza does not read unnamed module @0x4926097b
+at pizza/proyecto_junit.proyecto_junit.SistemaLealtadTest.verificarSaldoMenorA50(SistemaLealtadTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarSaldoMenorA50 -->
+      </class> <!-- proyecto_junit.proyecto_junit.SistemaLealtadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

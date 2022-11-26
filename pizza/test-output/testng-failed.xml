@@ -3,11 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="proyecto_junit.proyecto_junit.PizzaOrdenTest">
+      <class name="proyecto_junit.proyecto_junit.SistemaLealtadTest">
         <methods>
-          <include name="setOpcionVegTest"/>
+          <include name="verificarSaldoEntre50Y100"/>
+          <include name="verificarGuardarCupon"/>
+          <include name="preConditions"/>
+          <include name="initialConditions"/>
+          <include name="verificarSaldoMenorA50"/>
+          <include name="verificarNoGuardarCupon"/>
+          <include name="verificarClienteConTarjeta"/>
+          <include name="verificarClienteSinTarjeta"/>
+          <include name="verificarSaldoEntre100Y150"/>
+          <include name="verificarSaldoMayorA150"/>
         </methods>
-      </class> <!-- proyecto_junit.proyecto_junit.PizzaOrdenTest -->
+      </class> <!-- proyecto_junit.proyecto_junit.SistemaLealtadTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
