@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-25T22:59:58 PST" name="Default suite" finished-at="2022-11-25T23:02:16 PST" duration-ms="137061">
+    <groups>
+    </groups>
+    <test started-at="2022-11-25T22:59:58 PST" name="Default test" finished-at="2022-11-25T23:02:16 PST" duration-ms="137061">
+      <class name="proyecto_junit.proyecto_junit.PizzaOrdenTest">
+        <test-method signature="desplegarIngredientesTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T22:59:58 PST" name="desplegarIngredientesTest" finished-at="2022-11-25T22:59:58 PST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desplegarIngredientesTest -->
+        <test-method signature="desplegarResumenOrdenTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T22:59:58 PST" name="desplegarResumenOrdenTest" finished-at="2022-11-25T22:59:58 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desplegarResumenOrdenTest -->
+        <test-method signature="guardarIngredientesTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T22:59:58 PST" name="guardarIngredientesTest" finished-at="2022-11-25T23:02:13 PST" duration-ms="134028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guardarIngredientesTest -->
+        <test-method signature="preguntarPizzaVegetarianaTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:13 PST" name="preguntarPizzaVegetarianaTest" finished-at="2022-11-25T23:02:16 PST" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preguntarPizzaVegetarianaTest -->
+        <test-method signature="setIngrediente1Test()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:16 PST" name="setIngrediente1Test" finished-at="2022-11-25T23:02:16 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setIngrediente1Test -->
+        <test-method signature="setIngrediente2Test()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:16 PST" name="setIngrediente2Test" finished-at="2022-11-25T23:02:16 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setIngrediente2Test -->
+        <test-method signature="setIngrediente3Test()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:16 PST" name="setIngrediente3Test" finished-at="2022-11-25T23:02:16 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setIngrediente3Test -->
+        <test-method signature="setOpcionVegTest()[pri:0, instance:proyecto_junit.proyecto_junit.PizzaOrdenTest@cd3fee8]" started-at="2022-11-25T23:02:16 PST" name="setOpcionVegTest" finished-at="2022-11-25T23:02:16 PST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Test falló]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Test falló
+at pizza/proyecto_junit.proyecto_junit.PizzaOrdenTest.setOpcionVegTest(PizzaOrdenTest.java:95)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setOpcionVegTest -->
+      </class> <!-- proyecto_junit.proyecto_junit.PizzaOrdenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
